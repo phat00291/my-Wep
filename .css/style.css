@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+:root {
+    --dark-purple-pink:#4C0033;
+    --dark-glay-purple-pink:#790252;
+    --purple-pink:#AF0171;
+    --pink:#E80F88;
+    color: #900C3F;
+    color: #C70039;
+    color: #F94C10;
+    color: #F8DE22;
+}
+body {
+    background-color: #4C0033;
+    font-family: serif;
+}
+a {
+    text-decoration: none;
+    display: block;
+    background-color: #4d0535;
+    color: var(--pink);
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 2px;
+    border-radius: 5px;
+
+}
+a:hover {
+    transition: 0.7s;
+    background-color: var(--purple-pink);
+    
+}
+.navbar-bar {
+    
+    display: flex;
+    background-color: var(--dark-glay-purple-pink);
+    padding: 2px;
+    border-right: 5px solid var(--pink);
+    border-left: 5px solid var(--pink);
+    
+}
+.dropbtn, .lead {
+    background-color: #4d0535;
+    color: var(--pink);
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 2px;
+    border-radius: 5px;
+    
+} 
+/* text */
+
+.dropbtn:hover, .dropbtn:focus {
+    transition: 0.7s;
+    background-color: var(--purple-pink);
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #AF0171;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding-bottom: 5px;
+    z-index: 1;
+}
+.dropdown-content .lead {
+    color: var(--pink);
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content .lead:hover {
+    transition: 1s;
+    background-color: #E80F88;
+
+}
+.show {
+    display: block;
+}
+/* class opject  */
+.opjectbtn, .date  {
+    background-color: #4d0535;
+    color: var(--pink);
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 2px;
+    border-radius: 5px;
+
+}
+.opjectbtn:hover, .opjectbtn:focus {
+    transition: 0.7s;
+    background-color: var(--purple-pink);
+}
+.dropdown-opject {
+    position: relative;
+    display: inline-block;
+}
+.opject-content {
+    display: none;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #AF0171;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding-bottom: 5px;
+    z-index: 1;
+    transition: 1.0s;
+}
+.opject-content .date{
+    color: var(--pink);
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    
+}
+.opject-content .date:hover {
+    transition: 1.0s;
+    background-color: #E80F88;
+}
+
+.opjectshow {
+    display: block;
+}
+
+/* searct */
+
+.search-bar-item, #tnb-search-container {
+    position: relative;
+    display: block;
+    padding: 5px 50px;
+    font-style: normal;
+}
+#tnb-search-container input{
+    padding: 5px 40px 5px 15px;
+    border: 1px solid var(--dark-glay-purple-pink);
+    border-radius: 25px;
+    border: 3px solid var(--pink);
+    width: 120%;
+    height: 30px;
+}
+
+input {
+    overflow: visible;
+    font: inherit;
+    margin: 3px;
+}
+input[type="text" i] {
+    padding-block: 10px;
+    padding-inline: 10px;
+}
+input::placeholder {
+    padding: 0px;
+}

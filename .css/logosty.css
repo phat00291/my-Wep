@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+:root {
+    --dark-purple-pink:#4C0033;
+    --dark-glay-purple-pink:#790252;
+    --purple-pink:#AF0171;
+    --pink:#E80F88;
+    color: #900C3F;
+    color: #C70039;
+    color: #F94C10;
+    color: #F8DE22;
+    color: #ffffff00;
+}
+.logo-item {
+    /* background-color: var(--dark-glay-purple-pink);
+    border-left: 5px solid rgba(255, 0, 85, 0.829);
+    border-right: 5px solid rgba(255, 0, 85, 0.829); */
+    display: block;
+    height: 150px;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+
+}
+.typetext{
+    display: block;
+    margin: 10px;
+    padding: 30px;
+    text-shadow:  0px 0px 7px var(--dark-purple-pink);
+    
+}
+h1, h2  {
+    display: inline;
+    position: relative;
+    padding: 2px;
+    height: 50px;
+    
+}
+/* table-list-side */
+.table-list-side {
+    display: block;
+    /* background-color: #900C3F; */
+    margin-top: 10px;
+    border-top: 8px solid #900C3F;
+}
+.table-btn {
+    
+    background-image: url(https://storage.googleapis.com/cdn.vcgamers.com/news/wp-content/uploads/2023/11/overflow-anime.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 0;
+}
+th, td {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border: 5px solid #F94C10;
+    margin: 33px;
+    padding: 0px;
+    border: none;
+}
+td {
+    background-size: cover;
+    border-radius: 15px;
+    background-color: #c7003809;
+    box-shadow: 0px 0px 10px #31beff;
+    backdrop-filter: blur(5px);
+    margin: 16px;
+    padding: 14px;
+    text-align: center;
+
+}
+/* footet div class */
+.footer-container {
+    background-color: #790252;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+/* dropdown-patition */
+
+.patitionbtn, .bnt-k   {
+
+    background-color: #4d0535;
+    color: var(--pink);
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 2px;
+    border-radius: 5px;
+    width: 20cap;
+
+}
+.patitionbtn:hover, .patitionbtn:focus {
+    transition: 0.2s;
+    backdrop-filter: blur(2px);
+    background-color: #ffffff00;
+    border:2px solid #900C3F;
+    
+}
+.dropdown-patition {
+    position: relative;
+    display: inline-block;
+}
+.patition-content {
+    display: none;
+    border-radius: 5px;
+    position: absolute;
+    backdrop-filter: blur(2px);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding-bottom: 5px;
+    z-index: 1;
+    transition: 1.0s;
+}
+.patition-content .bnt-k{
+    color: var(--pink);
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    
+}
+.patition-content .bnt-k:hover {
+    background-color: #e80f8600;
+}
+
+.patitionshow {
+    display: block;
+}
+
+
